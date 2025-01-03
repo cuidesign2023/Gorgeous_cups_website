@@ -1,9 +1,9 @@
 <?php
 	//database connection details
-	$host = 'localhost';
-	$user = 'root';
-	$password = '';
-	$database = 'gorgeous_cupcakes';
+	$host = 'cfmysqldb.csc2udldo3ok.us-east-1.rds.amazonaws.com';
+	$user = 'admin';
+	$password = '12345678';
+	$database = 'AWSdatabase';
 
 	//connect to database with a try/catch statement
 	//if the connection is not successful display the error message via database_error.php
